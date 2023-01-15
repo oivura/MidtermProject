@@ -1,0 +1,36 @@
+.Photographs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.Photographs > img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photographs-wrapper{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 97vw;
+    display:grid;
+    grid-template-columns: repeat(auto-fill);
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+
+}
+
+nav ul li a {
+    color: black ;
+    font-size: 17px;
+    /* padding: 7px 13px; */
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+ 
